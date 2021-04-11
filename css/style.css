@@ -1,10 +1,19 @@
+:root {
+    --branco: #e3f2fd;
+    --preto: #141414;
+}
+
 *{
     padding: 0;
     margin: 0;
 }
 
+body {
+    background-color: var(--preto);
+}
+
 .container {
-    width: 15%;
+    width: 35%;
     padding: 0 0 0 17px;
     margin: 0;
     display: flex;
@@ -19,4 +28,120 @@
 
 .container-fluid a:hover {
     font-size: 21px;
+}
+
+header{
+    margin: 40px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--branco);
+}
+
+header h4{
+    font-size: 16px;
+}
+.quem-sou {
+    display: flex;
+    align-items: center;
+    margin-bottom: 80px;
+
+}
+
+.quem-sou .titulo-foto {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quem-sou .titulo-foto h1{
+    color: var(--branco)
+}
+
+.quem-sou p{
+    margin-left: 10px;
+    height: 150px;
+    width: 55%;
+    color: var(--branco);
+
+    display: flex;
+    align-items: center;
+}
+
+.habilidades {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 80px;
+}
+
+.habilidades h1 {
+    color: var(--branco);
+    padding-bottom: 10px;
+}
+
+#MyCarousel .carousel-inner{
+    border: 1px solid var(--branco);
+    width: 100%;
+    height: 350px;
+
+    display: flex;
+}
+
+.carousel-caption{
+    background-color: rgba(0,0,0,.60);
+    padding: 0;
+}
+
+.carousel-inner h5{
+    font-size: 40px;
+}
+
+.carousel-inner p{
+    font-size: 20px;
+}
+.hobbies{
+    padding-bottom: 40px;
+}
+
+.hobbies h1 {
+    color: var(--branco);
+    padding-bottom: 10px;
+}
+
+.hobbies p{
+    width: 310px;
+    background-color: var(--branco);
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    padding: 10px;
+}
+
+.image{
+    width: 310px;
+    height: 180px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border: 1px solid var(--branco)
+}
+
+.image-sport{
+    width: 310px;
+    height: 200px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border: 1px solid var(--branco)
+}
+
+footer {
+    background-color: var(--branco);
+    padding: 3px 0;
+    margin: 0;
+}
+
+footer p{
+    margin: 0;
+    font-size: 16px;
 }
