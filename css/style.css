@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 15%;
+    padding: 0 0 0 17px;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-fluid a{
+    font-size: 20px;
+    padding: 0;
+    transition-duration: .3s;
+}
+
+.container-fluid a:hover {
+    font-size: 21px;
+}
