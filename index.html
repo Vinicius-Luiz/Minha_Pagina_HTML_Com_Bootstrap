@@ -7,6 +7,8 @@
     <title>Minha Página</title>
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <script src = "bootstrap/js/bootstrap.min.js"></script>
+
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -48,44 +50,50 @@
 
     <section class = "habilidades">
         <h1>Habilidades</h1>
-        <div id="MyCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div id="MyCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel"> <!--data-bs-ride-->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#MyCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#MyCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#MyCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#MyCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              </div>
             <div class="carousel-inner">
-              <div class="carousel-item active" data-bs-interval="5000">
+              <div class="carousel-item active">
                 <img src="img/carousel-python.jpg" class="d-block w-100" alt="carousel-python">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Python</h5>
+                <div class="carousel-caption d-md-block"> <!--d-none-->
+                  <h2>Python</h2>
                   <p>Algoritmos e Estrutura de dados; Orientação a objetos.</p>
                 </div>
             </div>
-            <div class="carousel-item" data-bs-interval="5000">
+            <div class="carousel-item">
                 <img src="img/carousel-html.png" class="d-block w-100" alt="carousel-html">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>HTML5</h5>
-                  <p>Estrutura básica, emântica e principaias elementos HTML</p>
+                <div class="carousel-caption d-md-block">
+                  <h2>HTML5</h2>
+                  <p>Estrutura básica, semântica e principaias elementos HTML</p>
                 </div>
             </div>
-            <div class="carousel-item" data-bs-interval="5000">
+            <div class="carousel-item">
                 <img src="img/carousel-css.jpg" class="d-block w-100" alt="carousel-css">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>CSS3</h5>
+                <div class="carousel-caption d-md-block">
+                  <h2>CSS3</h2>
                   <p>Conceitos básicos, flex-box, Bootstrap básico</p>
                 </div>
             </div>
-            <div class="carousel-item" data-bs-interval="5000">
+            <div class="carousel-item">
                 <img src="img/carousel-javascript.jpg" class="d-block w-100" alt="carousel-javascript">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>JavaScript</h5>
+                <div class="carousel-caption d-md-block">
+                  <h2>JavaScript</h2>
                   <p>Conceitos básicos, iniciante</p>
                 </div>
             </div>
         </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#MyCarousel" data-bs-slide="prev">
+            <button class="carousel-control-prev" type="button" data-bs-target="#MyCarousel" data-bs-slide="prev"> <!--data-bs-slide-->
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
+              <span class="visually-hidden">Previous</span> <!--class="visually-hidden"-->
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#MyCarousel" data-bs-slide="next">
+            <button class="carousel-control-next" type="button" data-bs-target="#MyCarousel" data-bs-slide="next"> <!--data-bs-slide-->
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
+              <span class="visually-hidden">Next</span> <!--class="visually-hidden"-->
             </button>
           </div>
     </section>

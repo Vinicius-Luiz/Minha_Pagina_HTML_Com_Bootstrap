@@ -84,10 +84,10 @@ header h4{
 
 #MyCarousel .carousel-inner{
     border: 1px solid var(--branco);
-    width: 100%;
-    height: 350px;
-
+    width: 1300px;
     display: flex;
+    height: 350px;
+    
 }
 
 .carousel-caption{
@@ -95,7 +95,7 @@ header h4{
     padding: 0;
 }
 
-.carousel-inner h5{
+.carousel-inner h2{
     font-size: 40px;
 }
 
