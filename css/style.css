@@ -12,7 +12,8 @@ body {
     background-color: var(--preto);
 }
 
-.container {
+/*---------------------------------------------------------------*/
+nav .container {
     width: 35%;
     padding: 0 0 0 17px;
     margin: 0;
@@ -20,16 +21,17 @@ body {
     justify-content: space-between;
 }
 
-.container-fluid a{
+nav .container-fluid a {
     font-size: 20px;
     padding: 0;
     transition-duration: .3s;
 }
 
-.container-fluid a:hover {
+nav .container-fluid a:hover {
     font-size: 21px;
 }
 
+/*---------------------------------------------------------------*/
 header{
     margin: 40px 0;
     display: flex;
@@ -42,34 +44,25 @@ header{
 header h4{
     font-size: 16px;
 }
-.quem-sou {
-    display: flex;
-    align-items: center;
-    margin-bottom: 80px;
 
+/*---------------------------------------------------------------*/
+.quem_sou{
+    color: var(--branco);
 }
 
-.quem-sou .titulo-foto {
-    width: 30%;
+.col-lg-4 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 15px;
 }
 
-.quem-sou .titulo-foto h1{
-    color: var(--branco)
-}
-
-.quem-sou p{
-    margin-left: 10px;
-    height: 150px;
-    width: 55%;
-    color: var(--branco);
-
+.col-lg-8 {
     display: flex;
     align-items: center;
 }
 
+/*---------------------------------------------------------------*/
 .habilidades {
     display: flex;
     flex-direction: column;
@@ -84,11 +77,10 @@ header h4{
 
 #MyCarousel .carousel-inner{
     border: 1px solid var(--branco);
-    width: 1300px;
     display: flex;
-    height: 350px;
-    
+    height: 350px;  
 }
+
 
 .carousel-caption{
     background-color: rgba(0,0,0,.60);
@@ -102,6 +94,8 @@ header h4{
 .carousel-inner p{
     font-size: 20px;
 }
+
+/*---------------------------------------------------------------*/
 .hobbies{
     padding-bottom: 40px;
 }
@@ -135,6 +129,7 @@ header h4{
     border: 1px solid var(--branco)
 }
 
+/*---------------------------------------------------------------*/
 footer {
     background-color: var(--branco);
     padding: 3px 0;
