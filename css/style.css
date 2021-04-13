@@ -64,9 +64,6 @@ header h4{
 
 /*---------------------------------------------------------------*/
 .habilidades {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     margin: 80px;
 }
 
@@ -77,22 +74,11 @@ header h4{
 
 #MyCarousel .carousel-inner{
     border: 1px solid var(--branco);
-    display: flex;
-    height: 350px;  
 }
-
 
 .carousel-caption{
     background-color: rgba(0,0,0,.60);
     padding: 0;
-}
-
-.carousel-inner h2{
-    font-size: 40px;
-}
-
-.carousel-inner p{
-    font-size: 20px;
 }
 
 /*---------------------------------------------------------------*/
