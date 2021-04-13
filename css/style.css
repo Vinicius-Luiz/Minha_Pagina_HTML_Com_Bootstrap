@@ -13,24 +13,24 @@ body {
 }
 
 /*---------------------------------------------------------------*/
+/*
 nav .container {
     width: 35%;
     padding: 0 0 0 17px;
     margin: 0;
     display: flex;
     justify-content: space-between;
-}
+}*/
 
-nav .container-fluid a {
+.meuNome {
     font-size: 20px;
     padding: 0;
     transition-duration: .3s;
 }
 
-nav .container-fluid a:hover {
+.meuNome:hover {
     font-size: 21px;
 }
-
 /*---------------------------------------------------------------*/
 header{
     margin: 40px 0;
@@ -80,26 +80,6 @@ header h2{
     font-size: 20px;
 }
 
-@media screen and (max-width: 660px){
-    .habilidades h2{
-        font-size: 25px;
-    }
-
-    .habilidades p{
-        font-size: 14px;
-    }
-}
-
-@media screen and (max-width: 520px){
-    .habilidades h2{
-        font-size: 16px;
-    }
-
-    .habilidades p{
-        font-size: 10px;
-    }
-}
-
 /*---------------------------------------------------------------*/
 .hobbies{
     padding-bottom: 40px;
@@ -144,4 +124,25 @@ footer {
 footer p{
     margin: 0;
     font-size: 16px;
+}
+
+
+@media screen and (max-width: 660px){
+    .habilidades h2{
+        font-size: 25px;
+    }
+
+    .habilidades p{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 520px){
+    .habilidades h2{
+        font-size: 16px;
+    }
+
+    .habilidades p{
+        font-size: 10px;
+    }
 }
