@@ -7,15 +7,26 @@
     <title>Apresentação Pessoal - Vinícius Luiz</title> 
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel = 'shortcut icon' href = 'img/icon.png'>
     <script src = "bootstrap/js/bootstrap.min.js"></script>
 
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid d-sm-flex justify-content-center" style="min-width: 70%;">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light d-flex justify-content-center align-content-center">
+        <li class="nav-item dropdown" style = "list-style-type: none;">
+            <a class="nav-link dropdown-toggle text-center" style = "color: #141414; font-size: 20px;" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Portfólio
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                <li><a class="dropdown-item" href="portfolio/Recriando_Interface_Netflix/index.html">Recriando inteface do Netflix</a></li>
+            </ul>
+        </li>
+
+        <div class="container-fluid d-sm-flex justify-content-center" style="min-width: 60%;">
           <a class="navbar-brand meuNome" href="#">Vinícius Luiz da Silva França</a>
         </div>
-        <div class="container icones" style="max-width: 42%;">
+
+        <div class="container icones" >
             <a class="navbar-brand" href="https://www.instagram.com/vinicius_ls_/" target = "_blank">
               <img src="img/instagram-logo.png" alt="" width="24" height="24">
             </a>
@@ -33,9 +44,9 @@
 
     </nav>
 
-    <header>
-        <h1><b>APRESENTAÇÃO PESSOAL</b></h1>
-        <h2>Última atualização: Sexta-feira, 23 de abril de 2021</h2>
+    <header class = "d-flex flex-column justify-content-center align-items-center" style = "margin: 40px 0;">
+        <h1 class = 'text-center' style = "color: #e3f2fd; font-size: 32px;"><b>APRESENTAÇÃO PESSOAL</b></h1>
+        <h2 class = "text-center" style = "color: #e3f2fd; font-size: 16px;">Última atualização: Segunda-feira, 26 de abril de 2021</h2>
     </header>
 
     <section class="container-fluid quem_sou">
@@ -50,7 +61,7 @@
         </div>
     </section> 
 
-    <section class = "container-fluid d-flex flex-column align-items-center habilidades" style = "margin: 0">
+    <section class = "container-fluid d-flex flex-column align-items-center habilidades" style = "margin: 0; padding-bottom: 40px;">
         <h1>Habilidades</h1>
         <div id="MyCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
             <div class="carousel-indicators">
@@ -102,7 +113,7 @@
 
     <section class="hobbies">
         <h1 class ="text-center">Hobbies e Paixões</h1>
-        <div class="container-lg">
+        <div class="container-lg"> 
             <div class="row">
                 <div class="col-lg-4">
                     <img src = "img/background (2).jpg" class = "image" alt = "futebol">
@@ -113,7 +124,7 @@
                     <p class = "text-center">Fanático desde o nascimento pelo Sport Clube do Recife - Campeão do campeonato brasileiro de 1987 e da Copa do Brasil 2008</p>
                 </div>
                 <div class="col-lg-4">
-                    <img src = "img/background (3).jpg" class = "image" alt = "Harry Potter">
+                    <img src = "img/background (3_1).jpg" class = "image" alt = "Harry Potter">
                     <p class="text-center">Apaixonado pela saga Harry Potter desde os 7 anos</p>
                 </div>
             </div>
