@@ -1,0 +1,208 @@
+:root {
+    --branco: #e3f2fd;
+    --preto: #141414;
+}
+
+body {
+    background-color: var(--preto);
+    padding: 0;
+    margin: 0;
+}
+/*---------------------------------------------------------------*/
+h1 {
+    color: var(--branco);
+    padding-bottom: 10px;
+}
+
+h2 {
+    font-size: 40px;
+}
+/*---------------------------------------------------------------*/
+
+.meuNome {
+    font-size: 20px;
+    padding: 0;
+    transition-duration: .3s;
+}
+
+.meuNome:hover {
+    font-size: 21px;
+}
+/*---------------------------------------------------------------*/
+
+.quem_sou{
+    color: var(--branco);
+    margin-bottom: 50px;
+}
+
+.quem_sou .foto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+.quem_sou .descricao {
+    display: flex;
+    align-items: center;
+}
+
+/*---------------------------------------------------------------*/
+.habilidades {
+    margin: 0;
+    margin-bottom: 50px;
+}
+
+.habilidades p{
+    font-size: 20px;
+}
+
+/*---------------------------------------------------------------*/
+.cursos{
+    margin-bottom: 50px;
+}
+
+.cursos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cursos p{
+    font-size: 16px;
+    color: var(--branco);
+}
+
+.cursos .logos{
+    margin: 20px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.cursos .logo1, .logo2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+.cursos .logo1{
+    border-right: 2px solid var(--branco);
+}
+
+.cursos .atividades{
+    display:flex;
+    justify-content: space-between;
+}
+
+.atividade{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 10px;
+} 
+
+.cursos .atividades img{
+    width: 89.6px;
+    height: 89.6px;
+}
+
+.cursos .atividades p{
+    font-size: 14px;
+    text-align: center;
+    max-width: 70%;
+}
+
+/*---------------------------------------------------------------*/
+.hobbies .col-lg-4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.hobbies p{
+    width: 310px;
+    background-color: var(--branco);
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    padding: 10px;
+}
+
+.image{
+    width: 310px;
+    height: 180px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border: 1px solid var(--branco);
+}
+
+.image-sport{
+    width: 310px;
+    height: 200px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border: 1px solid var(--branco)
+}
+
+/*---------------------------------------------------------------*/
+footer {
+    background-color: var(--branco);
+    padding: 3px 0;
+    margin: 0;
+}
+
+footer p{
+    margin: 0;
+    font-size: 16px;
+}
+
+
+/*---------------------------------------------------------------*/
+@media screen and (max-width: 660px){
+    .habilidades h2{
+        font-size: 30px;
+    }
+
+    .habilidades p{
+        font-size: 15px;
+    }
+    
+    .cursos {
+        margin: 80px 0;
+    }
+
+    .cursos .logo1{
+        border-right: none;
+    }
+
+    .cursos .logos{
+        border-right: 1px solid var(--branco);
+        padding: 10px;
+    }
+
+    .cursos .atividades img{
+        width: 52.5px;
+        height: 52.5px;
+    }
+
+    .cursos .atividades p{
+        font-size: 12px;
+        max-width: 60%;
+    }
+
+    .curso{
+        display:flex;
+    }
+}
+
+@media screen and (max-width: 520px){
+    .habilidades h2{
+        font-size: 20px;
+    }
+
+    .habilidades p{
+        font-size: 10px;
+    }
+}

@@ -6,12 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Apresentação Pessoal - Vinícius Luiz</title> 
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
     <link rel = 'shortcut icon' href = 'img/icon.png'>
     <script src = "bootstrap/js/bootstrap.min.js"></script>
 
 </head>
+
 <body>
+
     <nav class="navbar navbar-expand-lg navbar-light bg-light d-flex justify-content-center align-content-center">
         <li class="nav-item dropdown" style = "list-style-type: none;">
             <a class="nav-link dropdown-toggle text-center" style = "color: #141414; font-size: 20px;" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -19,6 +21,7 @@
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
                 <li><a class="dropdown-item" href="portfolio/Recriando_Interface_Netflix/index.html">Recriando inteface do Netflix</a></li>
+                <li><a class="dropdown-item" href="portfolio/Recriando_login_Instagram/index.html">Recriando login do Instagram</a></li>
             </ul>
         </li>
 
@@ -41,27 +44,26 @@
                 vlsf2@cin.ufpe.br
             </a>
         </div>
-
     </nav>
 
     <header class = "d-flex flex-column justify-content-center align-items-center" style = "margin: 40px 0;">
-        <h1 class = 'text-center' style = "color: #e3f2fd; font-size: 32px;"><b>APRESENTAÇÃO PESSOAL</b></h1>
-        <h2 class = "text-center" style = "color: #e3f2fd; font-size: 16px;">Última atualização: Segunda-feira, 26 de abril de 2021</h2>
+        <h1 class = "text-center" style = "font-size: 32px; color: #e3f2fd"><b>APRESENTAÇÃO PESSOAL</b></h1>
+        <h2 class = "text-center" style = "font-size: 16px; color: #e3f2fd">Última atualização: Quinta-feira, 29 de abril de 2021</h2>
     </header>
 
     <section class="container-fluid quem_sou">
         <div class="row">
-            <div class="col-lg-4">
+            <div class="col-lg-4 foto">
                 <h1>Quem sou</h1>
                 <img src="img/Quem sou.png" class="img-thumbnail rounded-circle" width="140" height="140" alt="Vinicius-Luiz">
             </div>
-            <div class="col-lg-8">
+            <div class="col-lg-8 descricao">
                 <p><b>Vinícius, nascido em maio de 2000, natural de Recife-PE, graduando de Sistemas de Informação no Centro de Informática (CIn) da Universidade Federal de Pernambuco (UFPE). Estou explorando as áreas de TI com foco atualmente no Front-end.</b></p>
             </div>
         </div>
     </section> 
 
-    <section class = "container-fluid d-flex flex-column align-items-center habilidades" style = "margin: 0; padding-bottom: 40px;">
+    <section class = "container-fluid d-flex flex-column align-items-center habilidades">
         <h1>Habilidades</h1>
         <div id="MyCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
             <div class="carousel-indicators">
@@ -100,20 +102,58 @@
                 </div>
             </div>
         </div>
-            <button class="carousel-control-prev d-none d-sm-block" type="button" data-bs-target="#MyCarousel" data-bs-slide="prev"> <!--data-bs-slide-->
+            <button class="carousel-control-prev d-none d-sm-block" type="button" data-bs-target="#MyCarousel" data-bs-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next d-none d-sm-block" type="button" data-bs-target="#MyCarousel" data-bs-slide="next"> <!--data-bs-slide-->
+            <button class="carousel-control-next d-none d-sm-block" type="button" data-bs-target="#MyCarousel" data-bs-slide="next">
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Next</span>
             </button>
           </div>
     </section>
 
-    <section class="hobbies">
+    <section class="cursos">
+        <h1 class="text-center" style = "color: #e3f2fd">Cursos</h1>
+        <div class="curso">
+            <div class="logos">
+                <div class="row">
+                    <div class="col-lg-6 logo1" >
+                        <img src="img/DIO.png" alt="Digital Innovation One" width="112" height="112">
+                        <p class="text-center">Digital Innovation One</p>
+                    </div>
+                    <div class="col-lg-6 logo2" >
+                        <img src="img/bootcamp1.png" alt="Bootcamp HTML Developer" width="112" height="112">
+                        <p class="text-center">Bootcamp HTML Developer</p>
+                    </div>
+                </div>
+            </div>
+            <div class="atividades" >
+                <div class="row">
+                    <div class="col-lg-3 atividade">
+                        <img src="img/bootcamp1-git.png" alt="Git & GitHub">
+                        <p>Introdução ao Git e ao GitHub</p>
+                    </div>
+                    <div class="col-lg-3 atividade">
+                        <img src="img/bootcamp1-htmlcss.png" alt="HTML5 & CSS3">
+                        <p>Introdução a criação de websites com HTML5 e CSS3</p>
+                    </div>
+                    <div class="col-lg-3 atividade">
+                        <img src="img/bootcamp1-bs.png" alt="Bootstrap">
+                        <p>Construindo páginas para internet com Bootstrap</p>
+                    </div>
+                    <div class="col-lg-3 atividade">
+                        <img src="img/bootcamp1-js.png" alt="JavaScript">
+                        <p>Programação para internet com JavaScript</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class= "hobbies">
         <h1 class ="text-center">Hobbies e Paixões</h1>
-        <div class="container-lg"> 
+        <div class="container-fluid"> 
             <div class="row">
                 <div class="col-lg-4">
                     <img src = "img/background (2).jpg" class = "image" alt = "futebol">
@@ -121,7 +161,7 @@
                 </div>
                 <div class="col-lg-4">
                     <img src = "img/background (1).jpg" class = "image-sport" alt = "Sport" >
-                    <p class = "text-center">Fanático desde o nascimento pelo Sport Clube do Recife - Campeão do campeonato brasileiro de 1987 e da Copa do Brasil 2008</p>
+                    <p class = "text-center">Fanático desde o nascimento pelo Sport Clube do Recife - Campeão do Campeonato Brasileiro de 1987 e da Copa do Brasil 2008</p>
                 </div>
                 <div class="col-lg-4">
                     <img src = "img/background (3_1).jpg" class = "image" alt = "Harry Potter">
@@ -133,7 +173,7 @@
 
     <footer class = "container-fluid text-center" >
         <p>Página desenvolvida utilizando HTML5, CSS3 e Bootstrap</p>
-        <p>Vinícius Luiz da silva França - vlsf2@cin.ufpe.br</p>
+        <p>Vinícius Luiz da Silva França - vlsf2@cin.ufpe.br</p>
     </footer>
 </body>
 </html>
