@@ -8,7 +8,7 @@
 
 visualização em: https://cin.ufpe.br/~vlsf2/
 
-A partir das aulas de introdução ao Bootstrap do, foi desenvolvido essa página pessoal com o intuito de aprimorar minhas habilidades nessa framework.
+A partir das aulas de introdução ao Bootstrap, foi desenvolvido essa página pessoal com o intuito de aprimorar minhas habilidades nessa framework.
 
 Bootcamp HTML Developer | Digital Innovation One
 
