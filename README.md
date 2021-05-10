@@ -6,3 +6,16 @@
 
 # Minha Página Web - Apresentação 
 
+visualização em: https://cin.ufpe.br/~vlsf2/
+
+A partir das aulas de introdução ao Bootstrap do, foi desenvolvido essa página pessoal com o intuito de aprimorar minhas habilidades nessa framework.
+
+Bootcamp HTML Developer | Digital Innovation One
+
+A página web possui uma **apresentação pessoal** contendo:
+
+- Nav com acesso às redes sociais, e-mail e portifólio
+- Quem sou
+- Habilidades (utilizando carousel)
+- Cursos
+- Hobbies e Paixões
