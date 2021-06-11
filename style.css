@@ -115,14 +115,14 @@ h2 {
 }
 
 /*---------------------------------------------------------------*/
-#hobbies .col-lg-4{
+.hobbies .col-lg-4{
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-bottom: 10px;
 }
 
-#hobbies p{
+.hobbies p{
     width: 310px;
     background-color: var(--branco);
     border-bottom-left-radius: 3px;
